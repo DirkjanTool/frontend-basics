@@ -1,0 +1,23 @@
+{
+  "name": "frontend-basics",
+  "version": "1.0.0",
+  "description": "Molveno Lake Resort",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "project",
+    "Hans",
+    "endbos",
+    "application",
+    "Molveno",
+    "Lake",
+    "Resort"
+  ],
+  "author": "Dirkjan Tool",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  }
+}

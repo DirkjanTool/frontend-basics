@@ -1,10 +1,37 @@
+@import "./node_modules/bootstrap/scss/bootstrap";
+
 $menu-background-color: darkblue;
 $menu-color: darkorange;
 
 body {
   .italic-paragraph{
     font-style: italic;
-  }  
+  }
+  .dynamic-color {
+    background: transparent;
+    transition: 0.3s all ease-out;
+    transform: scale(1);
+
+    &:hover {
+        background: green;
+        transform: scale(1);
+    }
+}
+  p::first-line {
+          color: #ff0000;
+          font-variant: small-caps;
+        }
+  .button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  } 
+  
   .menu{
         background-color: $menu-background-color;
         color: $menu-color;
